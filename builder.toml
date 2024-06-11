@@ -16,14 +16,14 @@ description = "A Cloud Native Buildpacks (CNB) builder with Paketo stacks (Jammy
 
 [[buildpacks]]
   id = "amp-buildpacks/cairo"
-  uri = "docker://ghcr.io/amp-buildpacks/cairo:0.1.0"
+  uri = "docker://ghcr.io/amp-buildpacks/cairo:0.2.0"
 
 
 [[order]]
 
   [[order.group]]
     id = "amp-buildpacks/cairo"
-    version = "0.1.0"
+    version = "0.2.0"
 
 
 [stack]
